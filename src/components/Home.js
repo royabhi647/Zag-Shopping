@@ -189,7 +189,7 @@ function Home() {
                   flexWrap: "wrap",
                 }}
               >
-                {activeOption == 0 && index === 0 && <AllProducts />}
+                {activeOption === 0 && index === 0 && <AllProducts />}
               </div>
             </div>
           ))}
@@ -203,7 +203,6 @@ function Home() {
             display: "flex",
             bottom: "2%",
             borderTop: "1px solid rgba(0, 0, 0, 0.20)",
-            display: "flex",
             justifyContent: "space-around",
           }}
         >
