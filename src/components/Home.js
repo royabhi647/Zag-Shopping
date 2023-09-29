@@ -22,11 +22,9 @@ function Home() {
 
   const [activeOption, setActiveOption] = useState(0);
   console.log("activeOption " + activeOption);
-  useEffect(() => {
-    if (activeOption === 2) {
-      navigate("/cart");
-    }
-  }, [activeOption]);
+  if (activeOption === 2) {
+    navigate("/cart");
+  }
 
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
