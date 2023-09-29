@@ -9,7 +9,7 @@ import SettingIcon from "../assets/settings.png";
 import AllProducts from "./AllProducts";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useEffect } from "react";
+
 function Home() {
   const navigate = useNavigate();
   const categories = ["All", "Men", "Women", "Kids"];
