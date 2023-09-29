@@ -224,6 +224,7 @@ function Home() {
               >
                 <img
                   src={icons.icon}
+                  alt=""
                   style={{ width: "24px", height: "24px" }}
                 />
               </div>
