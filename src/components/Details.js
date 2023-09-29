@@ -215,7 +215,6 @@ function Details(props) {
             position: "absolute",
             bottom: "0%",
             display: "flex",
-            position: "relative",
           }}
         >
           <div style={{ marginLeft: "24px", marginTop: "10px" }}>
