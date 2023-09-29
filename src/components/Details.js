@@ -265,7 +265,11 @@ function Details(props) {
                   marginRight: "10px",
                 }}
               >
-                <img src={cart} style={{ width: "24px", height: "24px" }} />
+                <img
+                  src={cart}
+                  alt=""
+                  style={{ width: "24px", height: "24px" }}
+                />
               </div>
               <p
                 style={{
